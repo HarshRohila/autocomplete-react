@@ -14,7 +14,7 @@ export const SearchResult = ({ onClickMovie, movies, status }: SearchResultProps
       {status === 'success' && (
         <>
           {movies && (
-            <ul className="search-results" tabIndex={-1}>
+            <ul className="search-results" data-testid="search-results" tabIndex={-1}>
               {movies.slice(0, 5).map((movie) => (
                 <li onClick={() => onClickMovie(movie)} key={movie.imdbID}>
                   {movie.Title}
