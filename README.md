@@ -1,3 +1,17 @@
+# AutoComplete React
+
+Features
+
+- Search shows 5 results at a time
+- Search starts at minimum of three characters
+- Debouncing of search input
+- Using environment.ts file for API_KEY
+- Selecting autoSuggest field shows movie card with Title, Poster And Rating
+
+# Improvements which can be done
+
+- UI design improvements and responsiveness
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
