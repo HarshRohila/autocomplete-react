@@ -12,14 +12,14 @@ export const MovieCard = ({ movie }: MovieProps) => {
   const { value: movieDetails, status } = useAsync<MovieDetails>(getMovieById)
 
   return (
-    <div className="card">
+    <div className="card" data-testid="movie-card">
       <img src={movie.Poster} alt="Avatar" style={{ width: 100 }} />
       <div className="container">
         <h4>
           <b>{movie.Title}</b>
         </h4>
         {status === 'pending' && <p>Loading...</p>}
-        {status === 'success' && <p>{movieDetails?.Ratings?.[0]?.Value}</p>}
+        {status === 'success' && <p data-testid="ratings">{movieDetails?.Ratings?.[0]?.Value}</p>}
       </div>
     </div>
   )

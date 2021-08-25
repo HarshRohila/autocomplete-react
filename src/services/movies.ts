@@ -1,4 +1,4 @@
-import { Movie } from '../components/Movie'
+import { Movie } from '../components/MovieCard'
 import environment from '../config/environment'
 
 const apikey = environment[process.env.NODE_ENV].API_KEY

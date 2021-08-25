@@ -3,7 +3,7 @@ import './App.css'
 import useAsync from './hooks/useAsync'
 import { debounce } from './utils/debounce'
 import moviesService from './services/movies'
-import { Movie, MovieCard } from './components/Movie'
+import { Movie, MovieCard } from './components/MovieCard'
 import { SearchResult } from './components/SearchResult'
 
 const MIN_QUERY_LENGTH = 3
