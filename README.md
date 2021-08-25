@@ -1,5 +1,7 @@
 # AutoComplete React
 
+Deployed on github pages https://harshrohila.github.io/autocomplete-react/
+
 Features
 
 - Search shows 5 results at a time
@@ -8,9 +10,14 @@ Features
 - Using environment.ts file for API_KEY
 - Selecting autoSuggest field shows movie card with Title, Poster And Rating
 
+# Test Coverage
+
+![Test Coverage](docs/images/testCoverage.PNG?raw=true 'Coverage')
+
 # Improvements which can be done
 
-- UI design improvements and responsiveness
+- UI design and responsiveness
+- Test coverage
 
 # Getting Started with Create React App
 

@@ -37,7 +37,7 @@ function App() {
           type="search"
           data-testid="search-input"
           value={query}
-          placeholder="Movie TItle"
+          placeholder="Movie Title"
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => setIsSearchFocussed(true)}
           onBlur={() => setTimeout(() => setIsSearchFocussed(false), 100)}
